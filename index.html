@@ -1,74 +1,136 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>JAMED.BOND — Precision PR</title>
-  <script src="https://cdn.tailwindcss.com"></script>
-  <style>
-    html { scroll-behavior: smooth; }
-    .grain {
-      position: fixed; inset:0; pointer-events:none; mix-blend-mode:screen;
-      background:
-        radial-gradient(circle at 30% 30%,rgba(255,255,255,0.04),transparent 60%),
-        radial-gradient(circle at 70% 60%,rgba(255,255,255,0.04),transparent 55%);
-    }
-  </style>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+<title>JAMED.BOND — Precision PR</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+  html { scroll-behavior:smooth; }
+  .hero-gradient {
+    background:radial-gradient(circle at 30% 40%,rgba(255,255,255,.12),transparent 60%),
+               radial-gradient(circle at 70% 60%,rgba(255,255,255,.08),transparent 55%);
+  }
+</style>
 </head>
 <body class="bg-black text-white font-sans antialiased">
-  <div class="grain"></div>
 
-  <!-- Hero -->
-  <section class="min-h-screen flex flex-col justify-center items-center text-center px-5">
-    <h1 class="text-5xl md:text-7xl font-extrabold tracking-wide mb-6">JAMED.BOND</h1>
-    <p class="text-xl md:text-2xl text-gray-300 max-w-2xl leading-relaxed">
-      Sharp strategy. Cinematic execution. We bring Bond-level precision to PR and advertising—discreet intelligence, bold creative, flawless delivery.
-    </p>
-    <a href="#about" class="mt-10 border border-white px-6 py-2 tracking-wide hover:bg-white hover:text-black transition">Learn More</a>
-  </section>
+<header class="fixed top-0 left-0 w-full z-30 backdrop-blur bg-black/40 border-b border-white/10">
+  <div class="max-w-6xl mx-auto flex items-center justify-between px-6 py-3 text-sm">
+    <div class="font-extrabold tracking-wider">JAMED.BOND</div>
+    <nav class="space-x-6 hidden md:block">
+      <a href="#mission" class="hover:text-gray-300">Mission</a>
+      <a href="#process" class="hover:text-gray-300">Process</a>
+      <a href="#work" class="hover:text-gray-300">Programs</a>
+      <a href="#why" class="hover:text-gray-300">Why Us</a>
+      <a href="#contact" class="hover:text-gray-300">Contact</a>
+    </nav>
+  </div>
+</header>
 
-  <!-- About -->
-  <section id="about" class="px-6 py-20 bg-gray-900/60 backdrop-blur">
-    <div class="max-w-4xl mx-auto text-center">
-      <h2 class="text-3xl md:text-4xl font-semibold mb-6">Mission</h2>
-      <p class="text-lg md:text-xl text-gray-300 leading-relaxed">
-        We operate like an elite unit: gather intelligence, engineer narrative, execute with style. Launches, reputation defence, market entry—each treated as a mission with measurable impact.
+<section class="min-h-screen flex flex-col justify-center items-center text-center px-6 hero-gradient">
+  <h1 class="text-5xl md:text-7xl font-extrabold tracking-wide mb-6">JAMED.BOND</h1>
+  <p class="text-xl md:text-2xl text-gray-300 max-w-3xl leading-relaxed">
+    Sharp strategy. Cinematic execution. We build and operate the public presence of founders and emerging public figures.
+  </p>
+  <a href="#contact" class="mt-10 border border-white px-8 py-3 tracking-wide hover:bg-white hover:text-black transition text-sm uppercase">Initiate Contact</a>
+</section>
+
+<section id="mission" class="px-6 py-24 bg-gray-900/60">
+  <div class="max-w-5xl mx-auto">
+    <h2 class="text-3xl md:text-4xl font-semibold mb-8 text-center">Mission</h2>
+    <div class="grid md:grid-cols-2 gap-12">
+      <p class="text-lg text-gray-300 leading-relaxed">
+        We turn operators into recognised public figures. Your ideas, insights and momentum are packaged into a consistent narrative across channels—so investors, talent and media know you before they meet you.
+      </p>
+      <p class="text-lg text-gray-300 leading-relaxed">
+        Strategy, content, and distribution executed as an embedded team. You stay focused on building; we handle visibility, authority and audience compounding.
       </p>
     </div>
-  </section>
+  </div>
+</section>
 
-  <!-- Services -->
-  <section class="px-6 py-20">
-    <div class="max-w-5xl mx-auto">
-      <h2 class="text-2xl md:text-3xl font-semibold text-center mb-12">Capabilities</h2>
-      <div class="grid md:grid-cols-3 gap-10 text-gray-300">
-        <div>
-          <h3 class="text-xl font-bold mb-2">Strategic PR</h3>
-          <p>Intelligence-led positioning, media relations, and narrative architecture.</p>
-        </div>
-        <div>
-          <h3 class="text-xl font-bold mb-2">Creative Campaigns</h3>
-          <p>Cinematic concepts and assets that cut through noise and earn attention.</p>
-        </div>
-        <div>
-          <h3 class="text-xl font-bold mb-2">Reputation Ops</h3>
-          <p>Crisis response, founder profile elevation, and trust maintenance.</p>
-        </div>
+<section id="process" class="px-6 py-24">
+  <div class="max-w-6xl mx-auto">
+    <h2 class="text-2xl md:text-3xl font-semibold mb-12 text-center">Our Process</h2>
+    <div class="grid md:grid-cols-4 gap-10 text-gray-300">
+      <div class="space-y-2">
+        <div class="text-sm font-bold text-white/60">01 // Persona & Positioning</div>
+        <p>Interview sprint to extract founder story, values, thematic pillars and differentiators.</p>
+      </div>
+      <div class="space-y-2">
+        <div class="text-sm font-bold text-white/60">02 // Content Engine</div>
+        <p>We build a repeatable system: outlines, scripts, capture workflows, editorial calendar.</p>
+      </div>
+      <div class="space-y-2">
+        <div class="text-sm font-bold text-white/60">03 // Distribution</div>
+        <p>Daily/weekly posting across LinkedIn, X, long-form, newsletter. SEO-aware repurposing.</p>
+      </div>
+      <div class="space-y-2">
+        <div class="text-sm font-bold text-white/60">04 // Growth Loop</div>
+        <p>Audience analytics, topic testing, collaboration outreach, lead magnet / community build.</p>
       </div>
     </div>
-  </section>
+  </div>
+</section>
 
-  <!-- Contact -->
-  <section id="contact" class="px-6 py-24 bg-gray-950 text-center">
-    <h2 class="text-2xl md:text-3xl font-semibold mb-6">Contact</h2>
-    <p class="text-gray-400 mb-6">Enquiries and missions initiated exclusively via LinkedIn.</p>
-    <a href="https://www.linkedin.com/company/jamed-bond" target="_blank" rel="noopener" class="inline-block underline text-lg hover:text-gray-300">
-      linkedin.com/company/jamed-bond
-    </a>
-  </section>
+<section id="work" class="px-6 py-24 bg-gray-900/50">
+  <div class="max-w-6xl mx-auto">
+    <h2 class="text-2xl md:text-3xl font-semibold mb-12 text-center">Programs</h2>
+    <div class="grid md:grid-cols-3 gap-10">
+      <div class="p-6 border border-white/10 rounded-lg bg-black/40">
+        <h3 class="font-bold mb-2">Launch Presence</h3>
+        <p class="text-sm text-gray-300">90-day sprint to design your persona and seed core channels. Includes positioning deck + first 40–60 content assets.</p>
+      </div>
+      <div class="p-6 border border-white/10 rounded-lg bg-black/40">
+        <h3 class="font-bold mb-2">Operated Feed</h3>
+        <p class="text-sm text-gray-300">Ongoing ghostwriting, video clips, design and scheduling. Founder time: ~1 hour/week. Everything else handled.</p>
+      </div>
+      <div class="p-6 border border-white/10 rounded-lg bg-black/40">
+        <h3 class="font-bold mb-2">Thought Leadership</h3>
+        <p class="text-sm text-gray-300">Long-form essays, keynote slide support, newsletter build and audience capture funnels.</p>
+      </div>
+    </div>
+  </div>
+</section>
 
-  <footer class="px-4 py-6 text-center text-xs text-gray-600">
-    © 2025 JAMED.BOND — All rights reserved.
-  </footer>
+<section id="why" class="px-6 py-24">
+  <div class="max-w-5xl mx-auto">
+    <h2 class="text-2xl md:text-3xl font-semibold mb-10 text-center">Why JAMED.BOND</h2>
+    <div class="grid md:grid-cols-2 gap-12">
+      <ul class="space-y-4 text-gray-300">
+        <li><span class="font-semibold text-white">Founder-Friendly:</span> Minimal time drain. Asynchronous capture and ghost ops.</li>
+        <li><span class="font-semibold text-white">Narrative Control:</span> We ensure every post ladders back to strategic positioning.</li>
+        <li><span class="font-semibold text-white">Full Stack:</span> Copy, video editing, design templates, scheduling, analytics.</li>
+      </ul>
+      <ul class="space-y-4 text-gray-300">
+        <li><span class="font-semibold text-white">Compounding Assets:</span> Content reused across talks, investor decks, hiring.</li>
+        <li><span class="font-semibold text-white">Data-Led Iteration:</span> Continuous testing of hooks, formats, topics.</li>
+        <li><span class="font-semibold text-white">Trusted Operator:</span> Embedded team acting as your external communications arm.</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="px-6 py-24 bg-gray-900/40">
+  <div class="max-w-3xl mx-auto text-center">
+    <p class="text-gray-400 text-sm uppercase tracking-widest mb-4">Founder’s Note</p>
+    <p class="text-lg text-gray-300 leading-relaxed">
+      “Visibility compounds. We build the machine that turns your weekly ideas into constant market presence.”
+    </p>
+  </div>
+</section>
+
+<section id="contact" class="px-6 py-24 text-center">
+  <h2 class="text-2xl md:text-3xl font-semibold mb-6">Contact</h2>
+  <p class="text-gray-400 mb-6">Enquiries initiated exclusively via LinkedIn.</p>
+  <a href="https://www.linkedin.com/company/jamed-bond" target="_blank" rel="noopener" class="inline-block underline text-lg hover:text-gray-300">
+    linkedin.com/company/jamed-bond
+  </a>
+</section>
+
+<footer class="px-4 py-6 text-center text-xs text-gray-600 border-t border-white/10">
+  © 2025 JAMED.BOND — All rights reserved.
+</footer>
 </body>
 </html>
