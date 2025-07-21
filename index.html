@@ -1,68 +1,74 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>JAMED.BOND</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <style>
-      html {
-        scroll-behavior: smooth;
-      }
-    </style>
-  </head>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>JAMED.BOND — Precision PR</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    html { scroll-behavior: smooth; }
+    .grain {
+      position: fixed; inset:0; pointer-events:none; mix-blend-mode:screen;
+      background:
+        radial-gradient(circle at 30% 30%,rgba(255,255,255,0.04),transparent 60%),
+        radial-gradient(circle at 70% 60%,rgba(255,255,255,0.04),transparent 55%);
+    }
+  </style>
+</head>
+<body class="bg-black text-white font-sans antialiased">
+  <div class="grain"></div>
 
-  <body class="bg-black text-white font-sans">
-    <!-- Hero -->
-    <section class="min-h-screen flex flex-col justify-center items-center text-center px-4">
-      <h1 class="text-5xl md:text-7xl font-bold tracking-wide mb-4">JAMED.BOND</h1>
-      <p class="text-xl md:text-2xl text-gray-300 max-w-xl mb-8">We jam the noise. You own the signal.</p>
-      <a href="#contact" class="text-white border border-white px-6 py-2 hover:bg-white hover:text-black transition">Work with us</a>
-    </section>
+  <!-- Hero -->
+  <section class="min-h-screen flex flex-col justify-center items-center text-center px-5">
+    <h1 class="text-5xl md:text-7xl font-extrabold tracking-wide mb-6">JAMED.BOND</h1>
+    <p class="text-xl md:text-2xl text-gray-300 max-w-2xl leading-relaxed">
+      Sharp strategy. Cinematic execution. We bring Bond-level precision to PR and advertising—discreet intelligence, bold creative, flawless delivery.
+    </p>
+    <a href="#about" class="mt-10 border border-white px-6 py-2 tracking-wide hover:bg-white hover:text-black transition">Learn More</a>
+  </section>
 
-    <!-- About -->
-    <section class="px-6 py-16 md:py-24 bg-gray-900 text-gray-200">
-      <div class="max-w-3xl mx-auto text-center">
-        <h2 class="text-3xl md:text-4xl font-semibold mb-6">Your Message, Weaponized</h2>
-        <p class="text-lg md:text-xl leading-relaxed">
-          JAMED.BOND is not your typical agency. We don’t advertise — we infiltrate.
-          Our campaigns disrupt. Our strategies scramble signals and rewire minds.
-          In a world of static, we make sure you're the only signal that gets through.
-        </p>
-      </div>
-    </section>
+  <!-- About -->
+  <section id="about" class="px-6 py-20 bg-gray-900/60 backdrop-blur">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="text-3xl md:text-4xl font-semibold mb-6">Mission</h2>
+      <p class="text-lg md:text-xl text-gray-300 leading-relaxed">
+        We operate like an elite unit: gather intelligence, engineer narrative, execute with style. Launches, reputation defence, market entry—each treated as a mission with measurable impact.
+      </p>
+    </div>
+  </section>
 
-    <!-- Services -->
-    <section class="px-6 py-16 md:py-24">
-      <div class="max-w-5xl mx-auto">
-        <h2 class="text-2xl md:text-3xl font-semibold mb-10 text-center">What We Do</h2>
-        <div class="grid md:grid-cols-3 gap-8 text-gray-300">
-          <div>
-            <h3 class="text-xl font-bold mb-2">Strategic PR</h3>
-            <p>We craft narratives that shape perception and dominate discourse.</p>
-          </div>
-          <div>
-            <h3 class="text-xl font-bold mb-2">Creative Disruption</h3>
-            <p>Campaigns that don’t just run — they detonate in the cultural radar.</p>
-          </div>
-          <div>
-            <h3 class="text-xl font-bold mb-2">Stealth Messaging</h3>
-            <p>Influence without noise. Impact without spectacle. Precision delivery.</p>
-          </div>
+  <!-- Services -->
+  <section class="px-6 py-20">
+    <div class="max-w-5xl mx-auto">
+      <h2 class="text-2xl md:text-3xl font-semibold text-center mb-12">Capabilities</h2>
+      <div class="grid md:grid-cols-3 gap-10 text-gray-300">
+        <div>
+          <h3 class="text-xl font-bold mb-2">Strategic PR</h3>
+          <p>Intelligence-led positioning, media relations, and narrative architecture.</p>
+        </div>
+        <div>
+          <h3 class="text-xl font-bold mb-2">Creative Campaigns</h3>
+          <p>Cinematic concepts and assets that cut through noise and earn attention.</p>
+        </div>
+        <div>
+          <h3 class="text-xl font-bold mb-2">Reputation Ops</h3>
+          <p>Crisis response, founder profile elevation, and trust maintenance.</p>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- Contact -->
-    <section id="contact" class="px-6 py-20 bg-gray-950 text-center">
-      <h2 class="text-2xl md:text-3xl font-semibold mb-6">Let’s Talk</h2>
-      <p class="text-gray-400 mb-6">Encrypted line not ready yet. For now:</p>
-      <a href="mailto:hello@jamed.bond" class="text-white underline text-lg hover:text-gray-300">hello@jamed.bond</a>
-    </section>
+  <!-- Contact -->
+  <section id="contact" class="px-6 py-24 bg-gray-950 text-center">
+    <h2 class="text-2xl md:text-3xl font-semibold mb-6">Contact</h2>
+    <p class="text-gray-400 mb-6">Enquiries and missions initiated exclusively via LinkedIn.</p>
+    <a href="https://www.linkedin.com/company/jamed-bond" target="_blank" rel="noopener" class="inline-block underline text-lg hover:text-gray-300">
+      linkedin.com/company/jamed-bond
+    </a>
+  </section>
 
-    <!-- Footer -->
-    <footer class="px-4 py-6 text-center text-sm text-gray-600 bg-black">
-      © 2025 JAMED.BOND — All transmissions monitored.
-    </footer>
-  </body>
+  <footer class="px-4 py-6 text-center text-xs text-gray-600">
+    © 2025 JAMED.BOND — All rights reserved.
+  </footer>
+</body>
 </html>
